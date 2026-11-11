@@ -18,3 +18,26 @@ h1 {
     text-shadow: 2px 2px 6px rgba(60, 30, 10, 0.9);
 }
 
+#score {
+    color: #ffd76e;
+    text-shadow: 2px 2px 6px rgba(60, 30, 10, 0.9);
+}
+
+#board {
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(145deg, #6b8e4e, #4a6b32);
+    border: 6px solid #8b5a2b;
+    border-radius: 14px;
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    box-shadow: 
+    0 0 0 3px #d4a24c,
+    0 10px 25px rgba(30, 20, 5, 0.7),
+    inset 0 0 20px rgba(0,0, 0, 0.35);
+}
+
+#board img {
+    width: 50px;
+    height: 50px;
+}
